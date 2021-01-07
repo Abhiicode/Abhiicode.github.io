@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <title>All Products - GabruLooks | Aapki Apni Dukaan</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" width="125px">
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#FC">Products</a></li>
+                    <li><a href="#LP">About</a></li>
+                    <li><a href="#Footer">Contact</a></li>
+                    <li><a href="#FP">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" id="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <div class="small-container" id="FP">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Sort By Price</option>
+                <option>Sort By Popularity</option>
+                <option>Sort By Rating</option>
+                <option>Sort By Sale</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.jpg">
+                <h4>Red Special T-shirt </h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>₹ 250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg">
+                <h4>Black Cobra Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>₹ 550.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg">
+                <h4>Zehrile Trousers</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>₹ 200.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg">
+                <h4>Blue Special T-Shirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>₹ 150.00</p>
+            </div>
+        </div>
+        <div class="row" id="LP">
+            <div class="col-4">
+                <img src="images/product-5.jpg">
+                <h4>Grey Sports Shoes </h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>₹ 350.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-6.jpg">
+                <h4>Black Puma T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>₹ 300.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-7.jpg">
+                <h4>Three Combo Socks</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>₹ 99.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-8.jpg">
+                <h4>Black Latest Watch (Fossil)</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>₹ 150.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-9.jpg">
+                <h4>Digital Sports Watch </h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>₹ 250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-10.jpg">
+                <h4>Sparx Deadly Red Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>₹ 550.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-11.jpg">
+                <h4>Zehrile Loafers</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>₹ 200.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-12.jpg">
+                <h4>Navy Blue Trousers</h4>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>₹ 150.00</p>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+        <!-- Footer -->
+        <div class="footer" id="Footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and ios Mobile phone. </p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png">
+                            <img src="images/app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo-white.png">
+                        <p>Our Purpose Is To Sustainably Make the pleasure and Benefits of Fashion Accessible to the Many.
+                        </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>coupons</li>
+                            <li>Blog Posts</li>
+                            <li>Return Policy</li>
+                            <li>Contacts</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Github</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020 - Palika Ab Ghar Me</p>
+            </div>
+        </div>
+
+        <!-- JS for toggle menu -->
+        <script>
+            var menuItems = document.getElementById("menuItems");
+            var manuIcon = document.getElementById("menuIcon")
+            menuItems.style.maxHeight = "0px"
+
+            function menutoggle() {
+                if (menuItems.style.maxHeight == "0px") {
+                    menuItems.style.maxHeight = "200px";
+                } else {
+                    menuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+</body>
+
+</html>
